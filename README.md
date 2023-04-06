@@ -1,12 +1,12 @@
-# Data Engineer Position - Assignment completed bby Matteo Jucker Riva
+# Data Engineer Position - Assignment completed by Matteo Jucker Riva
 
-This branch contains the code for the SCICORE dat-engineering assignement question 1-3
+This branch contains the code for the SCICORE data-engineering assignement question 1-3
 
 ## SETUP & RUN
 
-To installl all dependecies run `python setup.py`from the main project folder (requires pip)
+To install all dependecies run `python setup.py`from the main project folder (requires pip)
 
-To run one of the exercises a CLI is available! just run `python main.py -e {number of exercise 1-3} `. Further command line parameters are available. Run `python main.py --help` for more information
+To run one of the exercises a __CLI is available!__ just run `python main.py -e {number of exercise 1-3} `. Further command line parameters are available. Run `python main.py --help` for more information
 
 
 ## TASK:
