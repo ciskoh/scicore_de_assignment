@@ -1,4 +1,4 @@
-# Data Engineer Position - Assignment completed bby Matteo Jucker Riva
+# Data Engineer Position - Assignment completed by Matteo Jucker Riva
 
 This branch contains the code for the SCICORE dat-engineering assignement question 1-3
 
