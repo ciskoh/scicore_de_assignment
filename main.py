@@ -83,7 +83,7 @@ def execute_exercise_1(src_folder, db_path):
     print(f"the following tables are available at {db_path}: {' - '.join(table_list)}" )
 
 
-def execute_exercise_2(db_path: str, species_name: str, dst_path:str ="."):
+def execute_exercise_2(db_path: str, species_name: str, dst_path:str):
     """
     write a script which joins the tables to list all files (file paths) 
     belonging to a species.
@@ -183,10 +183,12 @@ def main_wrapper():
         # run ex 2
         db_path=args.pathtodb
         species=args.species
+        dst_path = str(Path("data") / "outputs")
+
 
         print("  --  RUNNING EXERCISE 2 ---")
         print("parameters:", f"species name: {species}", f"db_path: {db_path}")
-        execute_exercise_2(db_path, species)
+        execute_exercise_2(db_path, species, dst_path=dst_path)
 
     elif args.exercise == 3:
 
